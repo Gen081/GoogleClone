@@ -101,10 +101,10 @@ a:hover {
 
 #search-btn{
   border: none;
+  border-radius: 3px;
   font-size: 15px;
   color: #5F6368;
   padding: 7px 15px 7px 15px;
-  border-radius: 3px;
   margin-right: 10px;
 }
 #search-btn:hover {
@@ -113,10 +113,10 @@ a:hover {
 
 #emotion-btn {
   border: none;
+  border-radius: 3px;
   font-size: 15px;
   color: #5F6368;
   padding: 7px 15px 7px 15px;
-  border-radius: 3px;
 }
 #emotion-btn:hover {
   border: 1px solid rgba(0, 0, 0, 0.226);
@@ -133,15 +133,15 @@ a:hover {
 
 
 /* Footer Start*/
-/* 
+
 .footer {
+  /* border: 2px solid rgba(0, 0, 0, 0.226); */
   position: absolute;
-  bottom: 0;
   display: grid;
-  grid-template-columns: 100px 100px 150px 1330px 70px 70px 70px;
+  grid-template-columns: 70px 70px 125px 800px 70px 70px 70px;
   grid-template-rows: 50px;
   grid-template-areas: 
-  "advertising business hsw . privacy terms settings";
+  "advertising business hsw . privacy terms settings";  
 }
 
 #advertising {
@@ -170,7 +170,8 @@ a:hover {
   align-self: center;
 }
 #settings {
-  grid-area: asettings;
+  grid-area: settings;
   justify-self: center;
   align-self: center;
-} */
+}
+
