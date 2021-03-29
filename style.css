@@ -55,7 +55,7 @@ a:hover {
 }
 
 /* Middle Section Start */
-/* .middle-content {
+.middle-content {
   min-height: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -71,12 +71,25 @@ a:hover {
   grid-area: logo;
   justify-self: center;
   align-self: end;
-  /* object-fit: contain; */
 }
+
 #search {
   grid-area: search;
   height: 30px;
+  width: 125%;
+  margin-top: none;
   align-self: center;
+  justify-self: center;
+  border: 1px solid rgba(0, 0, 0, 0.151);
+  border-radius: 30px;
+}
+
+#search:focus {
+  box-shadow: 1px 1px 5px grey;
+}
+
+#search:hover {
+  box-shadow: 1px 1px 5px grey;
 }
 
 #flexbox {
@@ -85,18 +98,39 @@ a:hover {
   justify-self: center;
   align-self: center;
 }
+
 #search-btn{
+  border: none;
+  font-size: 15px;
+  color: #5F6368;
+  padding: 7px 15px 7px 15px;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+#search-btn:hover {
+  border: 1px solid rgba(0, 0, 0, 0.226);
 }
 
-#emotion-btn{
-
+#emotion-btn {
+  border: none;
+  font-size: 15px;
+  color: #5F6368;
+  padding: 7px 15px 7px 15px;
+  border-radius: 3px;
+}
+#emotion-btn:hover {
+  border: 1px solid rgba(0, 0, 0, 0.226);
 }
 
 #google-text-origin {
   grid-area: google-text-origin;
   justify-self: center;
-} */
+} 
+#francais {
+  color: blue;
+}
 /* Middle Section End */
+
 
 /* Footer Start*/
 /* 
