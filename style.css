@@ -1,34 +1,91 @@
-nav{
+body{
+  margin: 0;
+  padding:0;
+}
+
+/* Navbar Begins */
+
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-nav{
+  margin-top: 1.5em;
+  margin-left:1.5em;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.left-nav a{
+  color: black;
+  text-decoration: none;
+  margin-right: 0.5em;
+}
+
+.right-nav{
+  margin-top: 1.5em;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 1.5em;  
+}
+.right-nav a{
+  color: black;
+  text-decoration: none;
+  margin-left: 0.5em;
+}
+
+.right-nav img{
+  height: 20px;
+  margin-left: 1em;
+}
+
+#google_menu{
+  height: 20px;
+}
+
+/* nav{
   display: flex;
   justify-content: space-around;
   width: 20%;
   margin-left: auto;
-  margin-top: 1em;
+  margin-top: 1em; 
 }
 nav a{
   color: black;
   text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
 }
+.left-nav{
+  margin-left: 2em;
+}
+
 nav img{
   height: 20px;
-}
+} */
+/* Navbar Ends */
+
+/* Main Content Begins */
 main{
   width: 50%;
-  margin: auto;
+  margin: 7em auto;
   text-align: center;
 }
+
 main img{
   width: 40%;
-  height: 10%;
-  margin-top: 3em;
-  margin-bottom: 1em;
+  height: 50%;
+  margin-bottom: 0.5em;
+  margin-top: 0;
 }
 
 input{
   width: 90%;
   padding:1em;
   border-radius: 30px;
-  border: 1px solid gray;
+  border: 1px solid rgb(223, 221, 221);
+  
 }
 .btns-container{
   margin-top: 1em;
@@ -37,3 +94,37 @@ input{
   padding: 1em;
   border: none;
 }
+/* Main Content Ends */
+
+
+/* Footer Begins */
+footer{
+  background-color: rgb(240, 236, 236);
+  
+}
+
+.footer-bottom{
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  position: relative;
+  
+}
+.left a{
+  margin-right: 1em;
+  margin-left: 1em;
+}
+
+.right a{
+  margin-right: 1em;
+  margin-left: 1em;
+}
+
+.footer-bottom a{
+  text-decoration: none;
+  color: gray;
+}
+
+/* Footer Ends */
